@@ -1,0 +1,30 @@
+JINJA 
+<!---->
+Es un motor de plantillas inspirado en Django y Python, flask depende de
+él para funcionar. Puede tener cualquier extension que sea de texto (Html, Xml,
+CSV).Una template en jinja contiene multiples variables y expresiones las
+cuales serán reemplazadas por valores cuando se renderice la pagina.
+<!---->
+
+Delimeters.
+<!---->
+{% ... %} para Declaraciones <br>
+{{ ... }} para expresiones e imprimir a pantalla <br>
+{# ... #} para comentario, no sale a pantalla <br>
+# ... ## para lineas de declaraciones. <br>
+    
+    <ul>
+    # for item in seq
+        <li>{{ item }}</li>
+    # endfor
+    </ul>
+#
+<!---->
+Variables
+<!---->
+Se puede usar un punto (.) para acceder a atributos de una variable.
+Esto hace lo mismo.
+{{ foo.bar }}
+{{ foo['bar'] }}
+Si la variable o atributo no existe entonces nos devolvera un valor undefined
+<!---->
