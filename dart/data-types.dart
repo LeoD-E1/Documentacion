@@ -30,10 +30,12 @@ void main(){
   print(estudiantes[1]);
   */
   
-  String mensaje = saludar(texto:'Hola', name:'Leonardo');
+  String mensaje = saludar2(text:'Hola,', name:'Leonardo');
   print(mensaje);
 } 
   // En la funcion saludar se esta filtrando los tipos de datos esperados en los argumentos, y el orden que se quiere seguir
-String saludar( { String texto, String name} ){
+String saludar({String texto, String name}){
   return '$texto $name';
 }
+
+String saludar2({String text, String name}) => '$text $name'
