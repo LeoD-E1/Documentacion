@@ -1,6 +1,6 @@
 
-/* Un mixin es una forma de darle a la clase o de asignarle 
-lo que necesitamos para ciertas clases*/
+/* Los mixins son una forma de reutilizar el código
+ de una clase en varias jerarquías de clases.*/
 
 abstract class Animal { }
 
